@@ -40,7 +40,7 @@ pipeline {
         }
         stage('test doploy done') {
             steps {
-                sh 'curl ec2-52-80-133-153.cn-north-1.compute.amazonaws.com.cn/8040/version'
+                sh 'curl ec2-52-80-133-153.cn-north-1.compute.amazonaws.com.cn:8040/version'
             }
         }
     }
