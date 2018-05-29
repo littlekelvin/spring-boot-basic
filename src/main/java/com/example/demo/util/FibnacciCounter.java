@@ -11,4 +11,8 @@ public class FibnacciCounter {
         }
         return getFibnacci(num -1 ) + getFibnacci(num -2 );
     }
+
+    public static void hello(){
+        
+    }
 }
