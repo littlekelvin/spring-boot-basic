@@ -12,7 +12,7 @@ public class FibnacciCounter {
         return getFibnacci(num -1 ) + getFibnacci(num -2 );
     }
 
-    public static void hello(){
-        System.out.println();
+    public static void hello1(){
+        System.out.println("Hello");
     }
 }
