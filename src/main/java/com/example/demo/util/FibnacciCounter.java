@@ -13,6 +13,6 @@ public class FibnacciCounter {
     }
 
     public static void hello(){
-        
+        System.out.println();
     }
 }
